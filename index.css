@@ -1,0 +1,117 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* START STYLE FOR HEADER */
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39e8;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.logo-img{
+    margin-right: 40px;
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* END STYLE FOR HEADER */
+
+/* START STYLE FOR BANNER */
+.banner-section{
+    background: url(./img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+}
+/* END STYLE FOR BANNER */
+
+/* START STYLE FOR CARDS */
+.cards-section{
+    padding: 50px 0;
+}
+.cards-title, .cards-description{
+    text-align: center;
+    color:#151c39
+}
+.card{
+    width: 25%;
+    /* box-shadow: сдвиг по Х, сдвиг по У, размытие, растяжение, цвет */
+    box-shadow: 0px 2px 7px 0px #9e90ff; 
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+.card-button{
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-button:hover{
+    background: cornflowerblue;
+    color: black;
+}
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+/* END STYLE FOR CARDS */
+
+/* START STYLE FOR FOOTER */
+.footer{
+    background: url(./img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0;
+}
+.copyright{
+    color: white;
+}
+.footer-logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.footer-search-input{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 3;
+    margin-right: 20px;
+
+}
+.footer-search-button{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-search-button:hover{
+    background: black;
+    color: white;
+}
+/* END STYLE FOR FOOTER */
